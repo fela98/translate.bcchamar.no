@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const userId = `User${Math.floor(Math.random() * 1000000)}`;
+                const item = document.getElementById('translate-link').href = `mumble://${userId}@mumble.bcchamar.no`;
+            });
+        </script>
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>Mit WLAN verbinden:
+                    <br>
+                    Name: Skattlund
+                    <br>
+                    Passwort: Skattlund16
+                </p>
+            </li>
+            <li>
+                <a id="translate-link">Übersetzung öffnen</a>
+            </li>
+        </ol>
+    </body>
+</html>
